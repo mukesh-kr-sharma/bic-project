@@ -10,7 +10,9 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
+import django_heroku
 import os
+from decouple import config
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -19,7 +21,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
-from decouple import config
 
 # # SECURITY WARNING: keep the secret key used in production secret!
 # SECRET_KEY = 'uh(^@3627tevns-t+#!1pvmcok&7acy0muq%%akh@am2$a=3p!'
@@ -137,3 +138,6 @@ MEDIA_URL = '/media/'
 
 # Crispy Forms
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+# Activate django_heroku
+django_heroku.settings(locals())

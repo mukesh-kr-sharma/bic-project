@@ -11,6 +11,8 @@ django-crispy-forms = "*"
 pillow = "*"
 pylint-django = "*"
 python-decouple = "*"
+django-heroku = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"
