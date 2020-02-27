@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "C:\\Users\\Mukesh\\.virtualenvs\\bic-project--CeZ3SKz\\Scripts\\python.exe",
+    "python.pythonPath": "C:\\Users\\Mukesh\\Anaconda3\\python.exe",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
     "python.linting.pylintArgs": [

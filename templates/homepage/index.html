@@ -31,8 +31,10 @@
                             <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://forms.gle/cabAQpV2fM2eSh9D6" class="nav-link" target="_blank">Register Candidate</a>
-                            {% comment %} <a type="button" class="nav-link" data-toggle="modal" data-target="#register-modal">
+                            <a href="https://forms.gle/cabAQpV2fM2eSh9D6" class="nav-link" target="_blank">Register
+                                Candidate</a>
+                            {% comment %} <a type="button" class="nav-link" data-toggle="modal"
+                                data-target="#register-modal">
                                 Register Candidate
                             </a> {% endcomment %}
                         </li>
@@ -66,16 +68,16 @@
                     </button>
                 </div>
                 <form>
-                <div class="modal-body">
-                    <div class="container">
-                        {{ candidate_login_form|crispy }}
-                        {% csrf_token %}
+                    <div class="modal-body">
+                        <div class="container">
+                            {{ candidate_login_form|crispy }}
+                            {% csrf_token %}
+                        </div>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Register</button>
-                </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Register</button>
+                    </div>
                 </form>
             </div>
         </div>
@@ -92,16 +94,16 @@
                     </button>
                 </div>
                 <form>
-                <div class="modal-body">
-                    <div class="container">
-                        {{ candidate_login_form|crispy }}
-                        {% csrf_token %}
+                    <div class="modal-body">
+                        <div class="container">
+                            {{ candidate_login_form|crispy }}
+                            {% csrf_token %}
+                        </div>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Login</button>
-                </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
                 </form>
             </div>
         </div>
@@ -136,8 +138,7 @@
     <!-- Misc End -->
 
     <!-- Carousel -->
-    <div id="carouselCaptions" class="carousel slide container p-1 my-2 mx-auto rounded border"
-        data-ride="carousel">
+    <div id="carouselCaptions" class="carousel slide container p-1 my-2 mx-auto rounded border" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselCaptions" data-slide-to="0" class="active"></li>
             <li data-target="#carouselCaptions" data-slide-to="1"></li>
@@ -244,16 +245,29 @@
                 <p class="display-7">About BIC</p>
                 <hr class="bg-white mr-5">
                 <ul>
-                    <li>qwed</li>
-                    <li>uyjgsh</li>
+                    <li>About Bhardwaj Innovation Centre (BIC)</li>
+                    <li>Foundering Members </li>
+
+                    <i>Shivam Bhardwaj (Founder)</i><br>
+                    <i>Mukesh Kumar Sharma (Website Developer)</i><br>
+                    <i>Md. Kaif / Jishan (Coordinator) </i>
+
+
+
+                    <li>Facilities</li>
                 </ul>
             </div>
             <div class="col-md-4">
                 <p class="display-7">Courses</p>
                 <hr class="bg-white mr-5">
                 <ul>
-                    <li>qwed</li>
-                    <li>uyjgsh</li>
+                    <li>DCA</li>
+                    <li>ADCA</li>
+                    <li>DCP</li>
+                    <li>DTP</li>
+                    <li>DFA</li>
+                    <li>CDE</li>
+                    <li>and more...</li>
                 </ul>
             </div>
             <div class="col-md-4">
@@ -264,7 +278,7 @@
                         <i class="fas fa-map-marked"></i>
                     </div>
                     <div class="col">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Tajpur, Samastipur, Bihar - 848130
                     </div>
                 </div>
                 <div class="row mb-4">
@@ -272,19 +286,24 @@
                         <i class="fas fa-phone-alt pr-2"></i>
                     </div>
                     <div class="col">
-                        <a href="tel:+917004277245">+91 70042 77245</a>
-                        <a href="tel:+917004277245">+91 70042 77245</a>
+                        <a href="tel:+917352010695">+91 73520 10695</a>
+                        <a href="tel:+918709162950">+91 87091 62950</a>
                     </div>
                 </div>
                 <p class="display-7">Social Media</p>
                 <hr class="bg-white mr-5">
                 <div class="d-flex justify-content-around">
-                    <a href="#"><i class="display-7 fab fa-facebook"></i></a>
-                    <a href="#"><i class="display-7 fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/bhardwajic"><i class="display-7 fab fa-facebook"></i></a>
+                    <a href="mailto:bhardwajshivam9919@gmail.com"><i class="display-7 fas fa-at"></i></a>
                     <a href="#"><i class="display-7 fab fa-whatsapp"></i></a>
                 </div>
             </div>
         </div>
+        <hr class="bg-white mr-5">
+        <div class="col">
+            © 2020 Bhardwaj Innovation Centre
+        </div>
+
     </footer>
     <!-- Footer End -->
 
